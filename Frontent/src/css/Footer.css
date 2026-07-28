@@ -1,0 +1,31 @@
+#footer_Image{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 100px;
+
+}
+.footer1_img{
+    width: 80%;
+    height: 80%;
+    transition: transform .35s ease, box-shadow .35s ease;
+    cursor: pointer;
+}
+
+.footer1_img:hover{
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(0,0,0,.12);
+}
+.footer2_img{
+    width: 80%;
+    height: 80%;
+    transition: transform .45s ease, box-shadow .45s ease;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.footer2_img:hover{
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(0,0,0,.12);
+}

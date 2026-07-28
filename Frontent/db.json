@@ -1,0 +1,17 @@
+{
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Aman Pandey",
+      "phone": "9999999999",
+      "city": "Bhopal"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "AC Repair",
+      "price": 499
+    }
+  ]
+}

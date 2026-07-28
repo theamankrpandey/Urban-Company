@@ -1,0 +1,100 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: white;
+    width: 100%;
+    height: 80px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+}
+
+.Native {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+/* Middle Search Area */
+.NavbarSearchBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Location Box */
+.locationBox {
+    position: relative;
+    width: 250px;
+}
+
+.locationBox input {
+    width: 100%;
+    height: 45px;
+    padding-left: 35px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.locationIcon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.searchBox {
+    position: relative;
+    width: 250px;  
+}
+
+.searchIcon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none;
+}
+
+.searchBox input {
+    width: 100%;
+    height: 45px;
+    padding-left: 35px; 
+    padding-right: 10px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+}
+.faCartShopping{
+    color: rgb(91, 90, 90);
+}
+.faCircleUser{
+    color: rgb(91, 90, 90);
+}
+
+/* Right Side */
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    margin-right: 70px;
+}
